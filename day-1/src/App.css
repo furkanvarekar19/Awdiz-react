@@ -1,4 +1,14 @@
-.App {
-  text-align: center;
+body{
+  /* background-color: black; */
+  color: #fff;
 }
-
+.bg{
+  height: 700px;
+  width: 100%;
+  border: 2px solid #000;
+  background-image: url(https://quotefancy.com/media/wallpaper/3840x2160/8151357-Hello-World-Wallpaper.jpg);
+  background-repeat: no-repeat;
+  /* background-size: 100% 100%; */
+  background-size: cover;
+  background-position: center;
+}
