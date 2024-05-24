@@ -1,5 +1,9 @@
 function Mens() {
-    return <div>Mens</div>
+    return(
+        <div>
+            <h1>Mens</h1>
+        </div>
+    )
     
 }
 
