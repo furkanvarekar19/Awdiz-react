@@ -11,10 +11,10 @@ function Usestate(){
 function Increment() {
 
     // console.log("Inside function");
-    if(counter<10){
+   
 
         setCounter(counter + 1);
-    }
+    
     // setCounter((prevValue) => prevValue + 1);
 
 }
@@ -35,8 +35,10 @@ function Reset(){
 function Increment1() {
 
     // console.log("Inside function");
-    
+    if(counter === 10){
+        
     setCounter1(counter1 + 1);
+    }
     // setCounter((prevValue) => prevValue + 1);
 
 }
