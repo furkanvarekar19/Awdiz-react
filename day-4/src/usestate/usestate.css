@@ -22,6 +22,10 @@ h1{
     margin-top: 12px;
     font-family: Arial, Helvetica, sans-serif;
 }
+h2,h3{
+    color:#fff;
+    letter-spacing: 2px;
+}
 .usestate{
     height: 370px;
     width: 40%;
