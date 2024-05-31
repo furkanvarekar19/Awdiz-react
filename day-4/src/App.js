@@ -7,6 +7,8 @@ import UseEffect1 from './UseEffect/UseEffect1';
 import UseEffect2 from './UseEffect/UseEffect2';
 import UseEffect3 from './UseEffect/UseEffect3';
 import UseEffect4 from './UseEffect/UseEffect4';
+import UseNavigate from './Usenavigate/UseNavigate';
+import Userdetail from './UseParams/Userdetail';
 
 function App() {
   return (
@@ -19,6 +21,10 @@ function App() {
         <Route path='/useEffect2' element={<UseEffect2/>} />
         <Route path='/useEffect3' element= {< UseEffect3/>} />
         <Route path='/useEffect4' element= {< UseEffect4/>} />
+        <Route path='/UseNavigate' element= {< UseNavigate/>} />
+        <Route path='/Userdetail' element= {< Userdetail/>} />
+
+
 
 
       </Routes>
