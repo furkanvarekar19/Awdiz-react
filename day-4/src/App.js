@@ -14,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
+
         <Route path='*' element= {<Pagenotfound/>}/>
         <Route path='/' element={<Home/>}/>
         <Route path='/usestate' element= {<Usestate/>} />
@@ -22,9 +23,7 @@ function App() {
         <Route path='/useEffect3' element= {< UseEffect3/>} />
         <Route path='/useEffect4' element= {< UseEffect4/>} />
         <Route path='/UseNavigate' element= {< UseNavigate/>} />
-        <Route path='/Userdetail' element= {< Userdetail/>} />
-
-
+        <Route path='/:username' element= {<Userdetail/>} />
 
 
       </Routes>
