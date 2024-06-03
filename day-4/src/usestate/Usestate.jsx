@@ -63,14 +63,14 @@ function Reset1(){
         <div className="usestate">
 
             <h1>Counter 1: {counter}</h1>
-            <button onClick={Increment}>+</button>
-            <button onClick={Decrement}>-</button>
-            <button onClick={Reset}>Reset</button>
+            <button onClick={Increment} className='btn'>+</button>
+            <button onClick={Decrement}  className='btn'>-</button>
+            <button onClick={Reset}  className='btn'>Reset</button>
 
             <h1>Counter 2: {counter1}</h1>
-            <button onClick={Increment1}>+</button>
-            <button onClick={Decrement1}>-</button>
-            <button onClick={Reset1}>Reset</button>
+            <button onClick={Increment1}  className='btn'>+</button>
+            <button onClick={Decrement1}  className='btn'>-</button>
+            <button onClick={Reset1}  className='btn'>Reset</button>
 
         </div>
         </div>

@@ -9,6 +9,8 @@ import UseEffect3 from './UseEffect/UseEffect3';
 import UseEffect4 from './UseEffect/UseEffect4';
 import UseNavigate from './Usenavigate/UseNavigate';
 import Userdetail from './UseParams/Userdetail';
+import Maping from './Mapping-data/Maping';
+import Allprodcuts from './Mapping-data/Allprodcuts';
 
 function App() {
   return (
@@ -24,6 +26,10 @@ function App() {
         <Route path='/useEffect4' element= {< UseEffect4/>} />
         <Route path='/UseNavigate' element= {< UseNavigate/>} />
         <Route path='/:username' element= {<Userdetail/>} />
+        <Route path='Maping' element= {<Maping fruits={["Apple","Banana","Papaya","Watermelon"]} />} />
+        <Route path='Allprodcuts' element= {<Allprodcuts/>} />
+
+
 
 
       </Routes>
