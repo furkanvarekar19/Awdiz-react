@@ -11,6 +11,8 @@ import UseNavigate from './Usenavigate/UseNavigate';
 import Userdetail from './UseParams/Userdetail';
 import Maping from './Mapping-data/Maping';
 import Allprodcuts from './Mapping-data/Allprodcuts';
+import Allproducts2 from './Mapping-data/Allproducts2';
+import  Bgcolor  from './Bg-color-pro/Bg-color';
 
 function App() {
   return (
@@ -28,6 +30,10 @@ function App() {
         <Route path='/:username' element= {<Userdetail/>} />
         <Route path='Maping' element= {<Maping fruits={["Apple","Banana","Papaya","Watermelon"]} />} />
         <Route path='Allprodcuts' element= {<Allprodcuts/>} />
+        <Route path='Allprodcuts2' element= {<Allproducts2/>} />
+        <Route path='bg-color' element= {<Bgcolor/>} />
+
+
 
 
 
