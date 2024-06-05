@@ -13,6 +13,10 @@ import Maping from './Mapping-data/Maping';
 import Allprodcuts from './Mapping-data/Allprodcuts';
 import Allproducts2 from './Mapping-data/Allproducts2';
 import  Bgcolor  from './Bg-color-pro/Bg-color';
+import FunctionProp from './Functions-props/FunctionProp';
+import StyledComponents from './Functions-props/StyledComponents.J';
+import InlineStyle from './Functions-props/InlineStyle';
+
 
 function App() {
   return (
@@ -32,6 +36,11 @@ function App() {
         <Route path='Allprodcuts' element= {<Allprodcuts/>} />
         <Route path='Allprodcuts2' element= {<Allproducts2/>} />
         <Route path='bg-color' element= {<Bgcolor/>} />
+        <Route path='FunctionProp' element= {<FunctionProp/>} />
+        <Route path='StyledComponents' element= {<StyledComponents/>} />
+        <Route path='InlineStyle' element= {<InlineStyle/>} />
+
+
 
 
 
