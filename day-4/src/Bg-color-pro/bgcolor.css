@@ -65,4 +65,11 @@
         font-size: 19px;
         border-radius: 5px;
         font-weight: 600; 
+        color: #fff;
+        background-color: olive;
+        border: 1px solid #000;
+}
+.bg{
+    height: 100vh;
+    width: 100%;
 }

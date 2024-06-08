@@ -16,6 +16,9 @@ import  Bgcolor  from './Bg-color-pro/Bg-color';
 import FunctionProp from './Functions-props/FunctionProp';
 import StyledComponents from './Functions-props/StyledComponents.J';
 import InlineStyle from './Functions-props/InlineStyle';
+import Todolist from './Todo-App/Todolist';
+import BigCol2 from './Bg-color-pro/BigCol2';
+import Todolist2 from './Todo-App/Todolist2';
 
 
 function App() {
@@ -36,14 +39,14 @@ function App() {
         <Route path='Allprodcuts' element= {<Allprodcuts/>} />
         <Route path='Allprodcuts2' element= {<Allproducts2/>} />
         <Route path='bg-color' element= {<Bgcolor/>} />
+        <Route path='BigCol2' element= {<BigCol2/>} />
         <Route path='FunctionProp' element= {<FunctionProp/>} />
         <Route path='StyledComponents' element= {<StyledComponents/>} />
         <Route path='InlineStyle' element= {<InlineStyle/>} />
+        <Route path='todolist' element= {<Todolist/>} />
+        <Route path='Todolist2' element= {<Todolist2/>} />
 
-
-
-
-
+       
 
 
 

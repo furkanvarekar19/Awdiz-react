@@ -11,4 +11,38 @@ body{
 }
 .margn{
   line-height: 70px;
+
+}
+
+/* todo list css */
+.main_todo{
+position: relative;
+}
+.main_todo input{
+    border: 1px solid #000;
+    outline: none;
+    padding: 7px 40px;
+    border-radius: 5px;
+}
+.main_todo h1{
+    margin-bottom: 20px;
+}
+.addtotd{
+    background: #000;
+    color: #ffff;
+    padding: 5px 17px;
+    margin-left: 4px;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.delete,.todo-text{
+    display: inline;
+    
+}
+.todo-text{
+    font-size: 19px;
+    
 }

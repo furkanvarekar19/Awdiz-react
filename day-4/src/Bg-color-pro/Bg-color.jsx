@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './bgcolor.css'
 
-export const Bgcolor = () => {
+ const Bgcolor = () => {
     const [Color , setColor] = useState("olive")
 
 
