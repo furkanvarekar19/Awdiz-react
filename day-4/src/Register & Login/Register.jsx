@@ -20,10 +20,10 @@ function Register() {
   
     async function handleSubmit(e) {
       e.preventDefault();
-      // api call to backend
+    
       try {
         if (userData.name && userData.email && userData.password) {
-          //   const response = await axios.post("https://awdiz-7/api/v1/user/register" , {userData});
+   
           const response = {
             data: { success: true, message: "Regsiter successfull." },
           };
@@ -37,7 +37,7 @@ function Register() {
             toast.success(response.data.message);
           }
         } else {
-        //   throw Error("All fields are mandatory.");
+     
           toast.error("All fields are mandatory!!");
         }
       } catch (error) {

@@ -21,6 +21,9 @@ import BigCol2 from './Bg-color-pro/BigCol2';
 import Todolist2 from './Todo-App/Todolist2';
 import Register from './Register & Login/Register';
 import Login from './Register & Login/Login';
+import Register1 from './Register & Login/Register1';
+import Login1 from './Register & Login/Login1';
+import ParentChild from './Register & Login/ParentChild';
 
 
 function App() {
@@ -49,6 +52,12 @@ function App() {
         <Route path='Todolist2' element= {<Todolist2/>} />
        <Route path='Register' element= {<Register/>}/>
        <Route path="/login" element={<Login/>} />
+       <Route path='Register1' element= {<Register1/>}/>
+       <Route path="/login1" element={<Login1/>} />
+       <Route path="/ParentChild" element={<ParentChild/>} />
+
+
+
 
 
 
