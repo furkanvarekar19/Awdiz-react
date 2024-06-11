@@ -19,6 +19,8 @@ import InlineStyle from './Functions-props/InlineStyle';
 import Todolist from './Todo-App/Todolist';
 import BigCol2 from './Bg-color-pro/BigCol2';
 import Todolist2 from './Todo-App/Todolist2';
+import Register from './Register & Login/Register';
+import Login from './Register & Login/Login';
 
 
 function App() {
@@ -45,8 +47,8 @@ function App() {
         <Route path='InlineStyle' element= {<InlineStyle/>} />
         <Route path='todolist' element= {<Todolist/>} />
         <Route path='Todolist2' element= {<Todolist2/>} />
-
-       
+       <Route path='Register' element= {<Register/>}/>
+       <Route path="/login" element={<Login/>} />
 
 
 
