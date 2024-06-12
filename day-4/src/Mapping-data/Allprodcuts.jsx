@@ -38,7 +38,7 @@ useEffect(()=>{
 
         <div className='flexs'>
         
-            {allProducts.map((product)=>(
+            { loading? <div className='loading'><h1>loading...</h1></div> : allProducts.map((product)=>(
 
                 <div className='box'>
                     <img src= {product.image} alt="img" />
