@@ -4,14 +4,16 @@ import axios from "axios";
 function Allprodcuts(){
     const [allProducts,setallProducts] = useState([]);
     console.log(allProducts);
+    const [loading, setLoading] = useState(false);
 
   async function GetProducts(){
     //   alert('hii')
+    setLoading(true);
      try{
         const response = await axios.get("https://fakestoreapi.com/products")
         // const response = await axios.get("https://api.escuelajs.co/api/v1/products") second api
     
-
+        setLoading(false);
 
         // console.log(response);
         setallProducts(response.data)
@@ -35,7 +37,9 @@ useEffect(()=>{
         <h1 className='all'>All-products</h1>
 
         <div className='flexs'>
+        
             {allProducts.map((product)=>(
+
                 <div className='box'>
                     <img src= {product.image} alt="img" />
                     <p className='title'> {product.title} </p>
@@ -48,7 +52,7 @@ useEffect(()=>{
           
         </div>
 
-        </>
+   </>
     )
 }
 export default Allprodcuts;
