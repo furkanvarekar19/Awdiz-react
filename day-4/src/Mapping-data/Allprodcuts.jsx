@@ -3,7 +3,7 @@ import './All-pro.css'
 import axios from "axios";
 function Allprodcuts(){
     const [allProducts,setallProducts] = useState([]);
-    console.log(allProducts);
+    // console.log(allProducts);
     const [loading, setLoading] = useState(false);
 
   async function GetProducts(){

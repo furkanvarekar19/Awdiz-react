@@ -24,6 +24,7 @@ import Login from './Register & Login/Login';
 import Register1 from './Register & Login/Register1';
 import Login1 from './Register & Login/Login1';
 import ParentChild from './Register & Login/ParentChild';
+import Weather from './Weather/Weather';
 
 
 function App() {
@@ -55,6 +56,8 @@ function App() {
        <Route path='Register1' element= {<Register1/>}/>
        <Route path="/login1" element={<Login1/>} />
        <Route path="/ParentChild" element={<ParentChild/>} />
+       <Route path="/Weather" element={<Weather/>} />
+
 
 
 
