@@ -52,3 +52,12 @@ position: relative;
 .login{
     text-align: center;
 }
+.home{
+    text-align: center;
+}
+.home h2{
+    font-size: 30px;
+}
+.main_todo{
+    text-align: center;
+}

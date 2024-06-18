@@ -17,7 +17,7 @@ const initialState = {user : null}
 
 
 
-function MyContextProvider(children){
+function MyContextProvider({children} ){
 const [state ,dispatch] = useReducer(reducer , initialState)
 
 

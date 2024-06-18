@@ -1,6 +1,10 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
+import { AuthContext } from '../contex/authcontext';
 
 function Todolist() {
+
+   const {state} = useContext(AuthContext)
+
     const [todo, setTodo] = useState("");
     const [allTodos, setAllTodos] = useState([]);
     console.log(allTodos, "allTodos");
@@ -21,7 +25,7 @@ function Todolist() {
     }
     return (
       <div className='main_todo'>
-        <h1>Todo App</h1>
+        <h1>Todo App : {state?.user?.name} </h1>
         <input value={todo} onChange={handleChange}  placeholder='Add your todo list'/>
       
         <button onClick={handleSubmit} className='addtotd'>Add Todo.</button>
