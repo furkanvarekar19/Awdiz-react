@@ -36,13 +36,13 @@ function Reducer() {
 
   return (
     <div className='reducer'>
-    <h1>Counter : {state.counter} </h1>
-    <button onClick={increment}> INCREMENT +</button>
-    <button onClick={decrement}>DECREMENT- </button>
-    <button onClick={reset}>RESET</button>
+    <h1>Counter using createContext : {state.counter} </h1>
+    <button onClick={increment} className='col'> INCREMENT +</button>
+    <button onClick={decrement} className='col'>DECREMENT- </button>
+    <button onClick={reset} className='col'>RESET</button>
 
     </div>
   )
 }
 
-export default Reducer
+export default Reducer;
