@@ -26,6 +26,7 @@ import Login1 from './Register & Login/Login1';
 import ParentChild from './Register & Login/ParentChild';
 import Weather from './Weather/Weather';
 import Reducer from './useReducer/Reducer';
+import Counter from './usestate/counter';
 
 
 function App() {
@@ -59,6 +60,8 @@ function App() {
        <Route path="/ParentChild" element={<ParentChild/>} />
        <Route path="/Weather" element={<Weather/>} />
        <Route path="/Reducer" element={<Reducer/>} />
+       <Route path="/counter" element={<Counter/>} />
+
 
 
       </Routes>

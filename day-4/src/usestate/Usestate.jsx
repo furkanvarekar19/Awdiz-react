@@ -11,7 +11,7 @@ function Usestate(){
 function Increment() {
 
     // console.log("Inside function");
-   
+
 
         setCounter(counter + 1);
     
