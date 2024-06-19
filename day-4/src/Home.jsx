@@ -14,11 +14,11 @@ const {state} = useContext(CounterContext)
         <div className="home">
             {/* <h2>home page : {state?.user?.name}</h2> */}
             <h2>home page : {state?.counter}</h2>
-            <button onClick={()=> home("counter")}> go to counter page</button>
+            <button onClick={()=> home("counter")} className="col"> go to counter page</button>
 
 
-            <button onClick={()=> home("UseNavigate")}> go to UseNavigate page</button>
-            <button onClick={()=> home("todolist")}> go to Todo page</button>
+            <button onClick={()=> home("UseNavigate")} className="col"> go to UseNavigate page</button>
+            <button onClick={()=> home("todolist")} className="col"> go to Todo page</button>
 
 
         </div>
