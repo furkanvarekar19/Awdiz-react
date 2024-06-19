@@ -6,10 +6,12 @@ import {BrowserRouter} from "react-router-dom"
 import { Toaster } from "react-hot-toast";
 import MyContextProvider from './contex/authcontext';
 import Counterprovider from './contex/countercontext';
+import ThemeContextProvider from './contex/themecontext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <ThemeContextProvider>
     <Counterprovider>
     <MyContextProvider>
     <BrowserRouter>
@@ -43,6 +45,7 @@ root.render(
     </BrowserRouter>
     </MyContextProvider>
     </Counterprovider>
+    </ThemeContextProvider>
   </React.StrictMode>
 );
 

@@ -1,4 +1,4 @@
-import { createContext, useReducer } from "react";
+import { createContext, useEffect, useReducer } from "react";
 
 function reducer(state , action){
     switch(action.type){
@@ -20,7 +20,9 @@ const initialState = {user : null}
 function MyContextProvider({children} ){
 const [state ,dispatch] = useReducer(reducer , initialState)
 
-
+//   useEffect(()=>{
+//     alert("page reload");
+//   })
     return(
 <AuthContext.Provider value={{state, dispatch}}>
     {children}
