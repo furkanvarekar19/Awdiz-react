@@ -15,7 +15,7 @@ const {themeState ,dispatch} = useContext(themeContext);
   const home = useNavigate()
        
     return(
-        <div className="home" style={{backgroundColor : themeState.theme === "light" ? "lightgreen" : "darkgray"}}>
+        <div className="home" style={{backgroundColor : themeState.theme === "light" ? "lightgreen" : "darkorchid"}}>
             {/* <h2>home page : {state?.user?.name}</h2> */}
             <h2>home page : {state?.counter}</h2>
 
