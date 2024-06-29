@@ -27,6 +27,9 @@ import ParentChild from './Register & Login/ParentChild';
 import Weather from './Weather/Weather';
 import Reducer from './useReducer/Reducer';
 import Counter from './usestate/counter';
+import Reduxcounter from './redux-counter/Reduxcounter';
+import Todo from './Todo-App/Todo';
+
 
 
 function App() {
@@ -61,8 +64,9 @@ function App() {
        <Route path="/Weather" element={<Weather/>} />
        <Route path="/Reducer" element={<Reducer/>} />
        <Route path="/counter" element={<Counter/>} />
-
-
+       <Route path="/Reduxcounter" element={<Reduxcounter/>} />
+       <Route path='Todo' element= {<Todo/>} />
+    
 
       </Routes>
     </div>

@@ -13,12 +13,12 @@ function Todolist2() {
    }
 
   function hadlesubmit(){
-       setalltodo(...alltodo , todo2);
+       setalltodo([...alltodo , todo2]);
        settodo2('');
   }
 
   return (
-    <div>
+    <div style={{textAlign:'center'}}>
       <h1>Todolist2 :</h1>
 
        <input type="text" value={todo2}  onChange={handletodo} placeholder='Add todo'/>
