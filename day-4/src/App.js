@@ -31,6 +31,8 @@ import Reduxcounter from './redux-counter/Reduxcounter';
 import Todo from './Todo-App/Todo';
 import UseCallbackComponent from './UseCallback&UseMemo/UseCallbackComponent ';
 import UseMemoComponent from './UseCallback&UseMemo/UseMemoComponent ';
+import UseRefComponent from './useRef/UseRefComponent ';
+import UseRef2Component from './useRef/UseRef2Component ';
 
 
 
@@ -70,7 +72,11 @@ function App() {
        <Route path='Todo' element= {<Todo/>} />
        <Route path='UseCallbackComponent' element={<UseCallbackComponent/>}  />
        <Route path='UseMemoComponent' element = {<UseMemoComponent/>} />
+       <Route path='UseRef' element = {<UseRefComponent/>} />
+       <Route path='UseRef2' element = {<UseRef2Component/>} />
 
+
+        
       </Routes>
     </div>
   );
